@@ -1,0 +1,16 @@
+.container {
+    width: 320px;
+}
+
+.button-box{
+    display: inline-block;
+    width: 140px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.operator-box {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}

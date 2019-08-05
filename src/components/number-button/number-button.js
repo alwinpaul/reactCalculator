@@ -1,7 +1,14 @@
-import React from 'react'
+import React, {Component} from 'react'
+import './number-button.css'
 
-const NumberButton = (props) => {
-    return <button> {props.children}</button>
+
+class NumberButton extends Component {
+
+    render() {
+        return (
+            <button onClick={this.props.handler}> {this.props.children}</button>
+        );
+    }
 }
 
 export default NumberButton;

@@ -1,3 +1,6 @@
 button {
-    padding: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    display: inline-block;
 } 

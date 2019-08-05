@@ -1,8 +1,9 @@
 import React from 'react';
+import "./input.css";
 
 const InputBox = (props) => {
     return <div>
-        <input type="text" name="" value={props.inputVal} />
+        <div className="input-box">{props.inputVal}</div>
     </div>
 }
 
