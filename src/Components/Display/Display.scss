@@ -1,0 +1,21 @@
+.display-box {
+  height: 100px;
+  width: 90%;
+  background-color: #fff;
+  text-align: right;
+  margin-right: 10px;
+  color: #666;
+  padding: 5%;
+  .db--operations {
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px 0;
+  }
+  .db--output {
+    height: 40px;
+    width: 100%;
+    font-size: 36px;
+    font-weight: bold;
+  }
+}

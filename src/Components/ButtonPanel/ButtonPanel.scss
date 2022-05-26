@@ -1,0 +1,15 @@
+.top-controls {
+  display: flex;
+  align-items: flex-start;
+}
+.number-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 210px;
+  margin: 10px;
+}
+.right-controls {
+  margin: 10px 0;
+}
